@@ -1,0 +1,41 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 30px;
+}
+section .click_on_me {
+  border-radius: 50%;
+  border: 2px solid black;
+  padding: 60px;
+}
+section #btn {
+  font-size: 20px;
+}
+.calc {
+  width: 50%;
+  margin: auto;
+  background: #f1f1f1;
+}
+.calc input {
+  padding: 6px;
+}
+.calc #primaryNumber {
+  border: 1px solid black;
+  background-color: #91ff00;
+}
+.calc #add {
+  font-size: 80px;
+}
+.calc #secondaryNumber {
+  border: 1px solid black;
+  background-color: aqua;
+}
+.calc #equal {
+  font-size: 80px;
+}
+.calc .addition {
+  font-size: 60px;
+  padding: 25px;
+}
